@@ -9,6 +9,7 @@ npm install
 build:
 npm run build
 
+
 ビルド作業を行った上で、plugin packerでプラグインをパッケージングしてください。
 
 plugin packer:
