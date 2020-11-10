@@ -1,6 +1,6 @@
-# sample-zoom-web-client-for-kintone
+# sample-kintone-to-zoom
 
-「kintone2zoom-plugin」「zoomWebClient-plugin」のフォルダ内で、
+「kintone2zoom-plugin」のフォルダ内で、
 JavaScriptファイルのビルド作業を行います。
 
 init:
