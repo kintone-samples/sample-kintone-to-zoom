@@ -1,13 +1,23 @@
 {
   "name": "zoom_web_client",
   "version": "0.1.0",
+  "description": "kintone to zoom Demo",
+  "author": "DLD",
+  "license": "MIT",
   "scripts": {
     "build": "webpack --mode production",
     "lint": "eslint src"
   },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "ie >= 11",
+    "not op_mini all"
+  ],
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/node": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-env": "^7.3.1",
     "@cybozu/eslint-config": "^8.0.0",
     "@kintone/plugin-packer": "^1.0.1",
@@ -22,6 +32,7 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
+    "@babel/runtime-corejs3": "^7.12.5",
     "@kintone/kintone-ui-component": "^0.7.4",
     "core-js": "^3.6.4",
     "cross-env": "^7.0.2",
