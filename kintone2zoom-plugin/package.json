@@ -17,6 +17,7 @@
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
     "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-env": "^7.3.1",
     "@cybozu/eslint-config": "^8.0.0",
